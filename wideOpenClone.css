@@ -23,16 +23,18 @@ body{
 .button{
     font-size: 16px;
     float: right;
-    margin-right: 2vw;
+    margin-right: 1.3vw;
+    margin-left: .5vw;
     margin-top: 1vh;
     color: white;
     text-decoration: none;
+    font-family: Lato, sans-serif;
 }
 .navButtons{
-    width: 35%;
+    width: 40%;
     position: relative;
     bottom: 8vh;
-    left: 46vw;
+    left: 40vw;
 }
 .sectionsGrey{
     background-color: #f0f0f0;
@@ -53,37 +55,42 @@ nav{
     position: fixed;
     height: 6vh;
     width: 100%;
+    padding-top: 1vh;
 }
 .topOfWork{
     color: white;
     position: relative;
     top: 15vh;
+    left: 3vw;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
-.mainLogo{
+.mainLogo-div{
      box-sizing: border-box;
      width: 38vw;
-     height: 20vh;
      margin-right: auto;
      margin-left: auto;
      position: relative;
-     left: 2vw;
+     bottom: 3vh;
+     right: 1vw;
 }
 .bigLogo{
-    font-size: 150px;
+    font-size: 155px;
     color: white;
-    font-weight: 100;
-    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-family: "Oswald", sans-serif;
     letter-spacing: 1px;
-    height: 12vh;
+    height: 11vh;
+    text-align: center;
+    margin-left: 3.5vw;
+
 }
 .leftBar{
     background-color: white;
     color: white;
     position: relative;
-    left: 12px;
+    left: 5vw;
     bottom: 3px;
     font-size: 7px;
     border: 1px solid white;
