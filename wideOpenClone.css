@@ -5,7 +5,6 @@ body{
     height: 100%;
     background-color: white;
 }
-
 .widthWrapper{
     width: 60%;
     margin-left: auto;
@@ -13,28 +12,29 @@ body{
     box-sizing: border-box;
 }
 .logoTop{
-    height: 100px;
-    width: 150px;
+    height: 31px;
+    width: 155px;
+    margin-right: 15vw;
     margin-left: 20vw;
-    top: 3vh;
-    position: relative;
+    margin-top: 2.5vh;
     display: inline-block;
 }
 .button{
     font-size: 16px;
-    float: right;
-    margin-right: 1.3vw;
     margin-left: .5vw;
-    margin-top: 1vh;
-    color: white;
+    margin-right: .35vw;
+    color: #ffffff;
     text-decoration: none;
-    font-family: Lato, sans-serif;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
 }
 .navButtons{
-    width: 40%;
+    width: 50%;
+    margin-left: 4.2vw;
+    display: inline-block;
     position: relative;
-    bottom: 8vh;
-    left: 40vw;
+    right: 2px;
+    bottom: 5px;
 }
 .sectionsGrey{
     background-color: #f0f0f0;
@@ -44,27 +44,30 @@ body{
     padding-top: 1px;
 }
 header{
-    background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
+    background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg") center top;
     width: 100vw;
     background-size: cover;
-    height: 58vh;
-    box-sizing: border-box;
+    height: 60%;
     padding-top: 1vh;
+    padding-bottom: 8vh;
 }
 nav{
     position: fixed;
     height: 6vh;
     width: 100%;
     padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 .topOfWork{
+    display: block;
     color: white;
     position: relative;
-    top: 15vh;
-    left: 3vw;
+    top: 16.2vh;
+    left: 3.2vw;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
+    font-weight: bold;
 }
 .mainLogo-div{
      box-sizing: border-box;
@@ -73,7 +76,7 @@ nav{
      margin-left: auto;
      position: relative;
      bottom: 3vh;
-     right: 1vw;
+     right: 2vw;
 }
 .bigLogo{
     font-size: 155px;
@@ -84,51 +87,56 @@ nav{
     height: 11vh;
     text-align: center;
     margin-left: 3.5vw;
+    padding-bottom: .5vh;
 
 }
 .leftBar{
     background-color: white;
     color: white;
     position: relative;
-    left: 5vw;
-    bottom: 3px;
-    font-size: 7px;
+    left: 4vw;
+    bottom: 1px;
+    font-size: 6px;
     border: 1px solid white;
-    margin-right: 3vw;
+    margin-right: 6.8vw;
 }
 .smallFont{
-    font-size: 20px;
+    font-size: 18px;
     color: white;
-    font-weight: 500;
     font-family: 'Oswald', sans-serif;
-    margin-right: 14px;
+    margin-right: 1px;
+    letter-spacing: 2px;
     position: relative;
+    font-weight: bold;
     top: 4px;
     left: 5px;
+    line-height: 1.1;
 }
 .rightBar{
     background-color: white;
     color: white;
     position: relative;
-    left: 3vw;
-    font-size: 7px;
+    left: 2.8vw;
+    font-size: 6px;
     border: 1px solid white;
     margin-right: 3vw;
 }
 .header-button:hover{
-    background-color: #b6d03a;
+    background-color: #d7f13b;
+    border: 4px #d7f13b solid;
     cursor: pointer;
 }
 .header-button{
     height:40px;
     width: 350px;
-    border: 5px #c8e23a solid;
+    border: 4px #b4ce39 solid;
+    background-color: #b4ce39;
     border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 5vh;
-    right:2vw;
+    top: 5.5vh;
+    left: 2vw;
 }
 .howItWorks{
     font-family: 'Open Sans', sans-serif;
@@ -147,7 +155,7 @@ nav{
     height: 75px;
     width: 75px;
     position: relative;
-    left: 47.5%;
+    left: 46.5%;
     top: 4vh;
 }
 .howItWorksBottom{
@@ -343,6 +351,7 @@ nav{
 }
 .contactUs:hover{
     background-color: #b6d03a;
+    border: 5px #b6d03a solid;
     cursor: pointer;
 }
 .contactUs-para{
@@ -377,10 +386,6 @@ nav{
 .blocks p:hover{
     visibility: visible;
 }
-.opac1{
-
-}
-
 .fadeImg{
     height: 40px;
     width: 50px;
@@ -561,7 +566,4 @@ nav{
     font-weight: 300;
     top: 6px;
     left: 10px;
-}
-@media screen and (max-width: 900px){
-
 }
