@@ -43,12 +43,12 @@ body{
     background-color: #f0f0f0;
     width: 100%;
     clear: both;
-    padding-bottom: 1vh;
     padding-top: 1px;
+    padding-bottom: 1px;
 }
 header{
     background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg") center top;
-    width: 100vw;
+    width: 100%;
     background-size: cover;
     height: 60%;
     padding-top: 1vh;
@@ -157,16 +157,12 @@ nav{
 .toolImg{
     height: 80px;
     width: 80px;
-    position: relative;
-    left: 46.5%;
-    top: 1vh;
+    margin-left: 46%;
 }
 .howItWorksBottom{
     font-family: 'Oswald', sans-serif;
     font-size: 42px;
-    width: 34%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     color: #6a787c;
     position: relative;
     letter-spacing: 1px;
@@ -186,9 +182,12 @@ nav{
 .greenIcon{
     background-color: #c8e23a;
 }
+.rsWebkit3d  .your-absolute-positoned-elements-selector {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+}
 .column{
     float: left;
-    min-width: 350px;
     width: 33%;
     display: flex;
     flex-flow: wrap;
@@ -244,7 +243,7 @@ nav{
 }
 .help{
     text-align: center;
-    width: 30%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     font-size: 42px;
@@ -383,7 +382,10 @@ nav{
     height: 450px;
     float: left;
 }
-.blocks p, img{
+.blocks img{
+    visibility: hidden;
+}
+.blocks p{
     color: white;
     font-size: 18px;
     font-weight: 300;
@@ -471,18 +473,21 @@ nav{
 }
 .smallBarDiv{
     margin-left: 5vw;
-    margin-bottom: 4vh;
+    margin-bottom: 5%;
     position: relative;
     bottom: 4vh;
 }
 .smallBar{
-    width: 2.5vw;
+    width: 4.5vw;
     height: 1px;
     color: #b6d03a;
     background-color: #b6d03a;
     border: 1px solid #b6d03a;
 }
 .bigPictures{
+    background-color: #f0f0f0;
+    width: 100%;
+    clear: both;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -494,6 +499,7 @@ nav{
     background-image: url("smallbackground1.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     display: inline-block;
     vertical-align: top;
 }
@@ -505,6 +511,7 @@ nav{
     background-repeat: no-repeat;
     background-image: url("smallbackground2.jpg");
     background-position: center;
+    background-size: cover;
 }
 .dark-div-box p{
     color: #f6f6f6;
@@ -553,13 +560,13 @@ nav{
 .leaveMessage{
     display: inline-block;
     position: fixed;
-    margin-top: 7vh;
     height:45px;
     width: 160px;
     border: 5px #c8e23a solid;
     border-radius: 5px;
-    left: 89.5vw;
-    top: 85.5vh;
+    bottom: 5px;
+    right: 5px;
+    transform: translateZ(0);
 }
 .leaveMessage-para{
     color: white;
@@ -570,4 +577,87 @@ nav{
     font-weight: 300;
     top: 6px;
     left: 10px;
+}
+@media screen and (max-width: 1024px){
+    nav{
+        width: 100%;
+    }
+    header{
+        padding-bottom: 7.5%;
+    }
+    .top-div{
+        width: 100%;
+    }
+    .mainLogo-div{
+        width: 100%;
+    }
+    .logoTop{
+        margin-left: 4%;
+        margin-top: 2.8vh;
+    }
+    .navButtons{
+        width: 60%;
+        margin-left: 14%;
+    }
+    .button{
+        margin-right:2.7%;
+        font-size: 15px;
+    }
+    .topOfWork{
+        top:31%;
+        left:16.8%;
+    }
+    .barUnderWork{
+        left: 14.5%;
+        bottom: 33%;
+    }
+    .smallFont{
+        left:3%;
+    }
+    .rightBar{
+        left: 8%;
+    }
+    .header-button{
+        width: 285px;
+    }
+    .learnMore{
+        left: 33%;
+        letter-spacing: 1px;
+    }
+    .widthWrapper{
+        width: 90%;
+    }
+    .toolImg{
+        margin-left: 46%;
+    }
+    .howItWorks{
+        margin-top: 4.2%;
+    }
+    .howItWorksBottom{
+
+    }
+    .center-para{
+        width: 90%;
+    }
+    #rightArrow{
+        right: 23%;
+    }
+    .arrowIcon{
+        right:16%;
+    }
+    .blocks{
+        height: 225px;
+    }
+    .dark-div-box{
+        margin-top: 16%;
+    }
+    .leftGray{
+        height: 340px;
+    }
+    .rightGray{
+        height: 340px;
+    }
+    .leaveMessage{
+        right: 180px;
+    }
 }
