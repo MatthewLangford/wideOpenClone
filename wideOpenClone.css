@@ -51,7 +51,7 @@ header{
     width: 100%;
     background-size: cover;
     height: 60%;
-    padding-top: 1vh;
+    padding-top: 1px;
     padding-bottom: 8vh;
 }
 nav{
@@ -64,9 +64,9 @@ nav{
 .topOfWork{
     color: white;
     position: relative;
-    top: 13vh;
-    left: 7.5vw;
-    font-size: 22px;
+    top: 32%;
+    left: 15.5%;
+    font-size: 21px;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     font-weight: bold;
@@ -81,32 +81,36 @@ nav{
      margin-left: auto;
 }
 .bigLogo{
-    font-size: 155px;
+    font-size: 150px;
     color: white;
     font-weight: normal;
     font-family: "Oswald", sans-serif;
     letter-spacing: 1px;
     text-align: center;
     position: relative;
-    bottom: 2.2vh;
+    bottom: 2.8%;
+    margin-left: .5%;
 }
 .barUnderWork{
     position: relative;
-    bottom: 34%;
-    left: 8.5%;
+    bottom: 29.5%;
+    left: 9%;
 }
 .leftBar{
     background-color: white;
     color: white;
     position: relative;
-    left: 4vw;
-    bottom: 1px;
+    left: 8.2%;
+    top: 2px;
     font-size: 6px;
     border: 1px solid white;
     margin-right: 6.8vw;
+    display: inline-block;
+    height: 7px;
+    width: 9.3%;
 }
 .smallFont{
-    font-size: 18px;
+    font-size: 17px;
     color: white;
     font-family: 'Oswald', sans-serif;
     margin-right: 1px;
@@ -114,17 +118,21 @@ nav{
     position: relative;
     font-weight: bold;
     top: 4px;
-    left: 5px;
+    left: 1px;
     line-height: 1.1;
+    margin-left: 3px;
 }
 .rightBar{
     background-color: white;
     color: white;
     position: relative;
-    left: 2.8vw;
+    height: 7px;
+    width: 9.3%;
+    left: 5%;
+    top: 3px;
     font-size: 6px;
     border: 1px solid white;
-    margin-right: 3vw;
+    display: inline-block;
 }
 .header-button:hover{
     background-color: #c4de39;
@@ -140,7 +148,8 @@ nav{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    bottom: 21%;
+    bottom: 16%;
+    left: 6px;
 }
 .howItWorks{
     font-family: 'Open Sans', sans-serif;
@@ -595,37 +604,57 @@ nav{
         width: 100%;
     }
     .logoTop{
-        margin-left: 4%;
-        margin-top: 2.8vh;
+        margin-left: 4.1%;
+        margin-top: 2.5%;
     }
     .navButtons{
         width: 60%;
-        margin-left: 14%;
+        margin-left: 17.4%;
     }
     .button{
-        margin-right:2.7%;
-        font-size: 15px;
+        margin-right:3.25%;
+        font-size: 16px;
     }
     .topOfWork{
-        top:31%;
-        left:16.8%;
+        left: 0;
+        top:31.5%;
+        width: 50%;
+        margin-right: 0;
+        margin-left: 17.5%;
+    }
+    .bigLogo{
+        bottom: 3%;
     }
     .barUnderWork{
-        left: 14.5%;
-        bottom: 33%;
+        left: 16.3%;
+        bottom: 30%;
+        width: 80%;
+        margin-right: 0;
+    }
+    .leftBar{
+        left: 3.2%;
+        width: 11%;
     }
     .smallFont{
-        left:3%;
+        left:1.5%;
+        letter-spacing: 2px;
+        margin-right: -1px;
     }
     .rightBar{
         left: 8%;
+        margin-right: 0;
+        bottom: 1px;
+        width: 10.5%;
     }
     .header-button{
         width: 285px;
+        bottom: 17%;
+        left: 0;
     }
     .learnMore{
         left: 33%;
         letter-spacing: 1px;
+        font-size: 16px;
     }
     .widthWrapper{
         width: 90%;
@@ -660,124 +689,107 @@ nav{
     .rightGray{
         height: 340px;
     }
-    .leaveMessage{
-        right: 180px;
-    }
+
     @media screen and (max-width: 768px) {
         .topOfWork {
             top: 28.5%;
-            left: 41%;
+            left: 24%;
         }
-
+        .howItWorks{
+            width: 94%;
+        }
         .widthWrapper {
             width: 98%;
         }
-
         .logoTop {
             display: none;
         }
-
         .navButtons {
             display: none;
         }
-
         .barUnderWork {
-            left: 4.5%;
-            bottom: 38%;
+            left: 8.5%;
+            bottom: 35%;
         }
-
         .smallFont {
-            left: 5%;
+            left: 2%;
             margin-right: -2px;
         }
-
-        .rightBar {
-            left: 12.5%;
+        .leftBar{
+            width: 14%;
+            left: 1.2%;
         }
-
+        .rightBar {
+            left: 11%;
+            width: 14%;
+        }
         .header-button {
-            bottom: 25%;
+            bottom: 23%;
             width: 92%;
         }
-
         .learnMore {
             font-size: 17px;
             left: 43%;
             top: 29%;
         }
-
         .sectionsGrey {
             padding-bottom: 2%;
         }
-
         .toolImg {
             margin-left: 44%;
         }
-
         .column {
             width: 100%;
             display: block;
             margin-bottom: 0;
         }
-
         #light {
             margin-left: 38%;
             margin-top: 2%;
             margin-bottom: 0;
         }
-
         .center-para {
             width: 60%;
             margin-left: 19.5%;
         }
-
         .center-para-anchor {
             bottom: 0;
             left: 2vw;
         }
-
         .arrowIcon {
             left: 45.8%;
             bottom: 52px;
         }
-
         .anchorsUnderIcons {
             margin-top: 8%;
             margin-right: 8%;
         }
-
         #middleArrow {
             margin-left: 40%;
             margin-bottom: -2.5%;
             margin-top: 0;
         }
-
         #middlePara {
             width: 40%;
             letter-spacing: .5px;
             margin-left: 27.5%;
             padding-top: 8%;
         }
-
         #centerParaAnchor {
             letter-spacing: 1px;
             bottom: 33px;
         }
-
         #power {
             margin-bottom: -3%;
             margin-left: 40%;
         }
-
         .leftDiv, .rightDiv {
             display: block;
             width: 100%;
         }
-
         .leftDiv {
             padding-bottom: 15px;
         }
-
         .smallDiv {
             width: 95%;
             margin-left: auto;
@@ -787,15 +799,12 @@ nav{
             padding-top: 1px;
             padding-bottom: 1px;
         }
-
         .smallDiv-para {
             font-size: 25px;
         }
-
         .smallDiv2 br, .smallDiv3 br, .smallDiv4 br, .smallDiv5 br {
             display: none;
         }
-
         #box4, #box5 {
             padding-top: 2%;
         }
@@ -828,11 +837,42 @@ nav{
         .bigPictures{
             display: none;
         }
-        .leaveMessage{
-            right: 320px;
-        }
-    }
-    @media screen and (max-width: 425px){
 
+    }
+    @media screen and (max-width: 375px){
+        header{
+            height: 340px;
+        }
+        .bigLogo{
+            font-size: 69px;
+            bottom: 0;
+            top:1.8%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .topOfWork{
+            top:16.5%;
+            letter-spacing: 2px;
+            left: 16%;
+        }
+        .barUnderWork{
+            bottom: 14%;
+        }
+        .leftBar{
+            width: 13%;
+            left: 1.2%;
+            bottom: 1%;
+        }
+        .smallFont{
+            font-size: 18px;
+            left: 3%;
+            margin-right: -3px;
+        }
+        #solutions{
+            margin-left: 3%;
+        }
+        .header-button{
+            bottom: -3%;
+        }
     }
 }
