@@ -60,6 +60,7 @@ nav{
     width: 100%;
     padding-top: 1vh;
     padding-bottom: 1vh;
+    z-index: 1000;
 }
 .topOfWork{
     color: white;
@@ -74,11 +75,11 @@ nav{
     text-align: left;
 }
 .mainLogo-div{
-     box-sizing: border-box;
-     width: 50%;
-     height: 415px;
-     margin-right: auto;
-     margin-left: auto;
+    box-sizing: border-box;
+    width: 50%;
+    height: 415px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .bigLogo{
     font-size: 150px;
@@ -860,19 +861,91 @@ nav{
         }
         .leftBar{
             width: 13%;
-            left: 1.2%;
-            bottom: 1%;
+            left: 3.8%;
+            margin-top: 3%;
         }
         .smallFont{
             font-size: 18px;
-            left: 3%;
+            left: 5%;
             margin-right: -3px;
+            top:5px;
         }
         #solutions{
-            margin-left: 3%;
+            margin-left: 14.5%;
+        }
+        .rightBar{
+            position: absolute;
+            top:25%;
+            left: 86.5%;
+            width: 12.5%;
         }
         .header-button{
-            bottom: -3%;
+            bottom: 2%;
+            width: 90%;
         }
+        .learnMore{
+            left:35%;
+        }
+        .howItWorks{
+            margin-top: 12.2%;
+            width: 92%;
+        }
+        .toolImg{
+            margin-left: 38%;
+        }
+        .howItWorksBottom{
+            width: 99%;
+        }
+        #light{
+            margin-left: 28%;
+        }
+        .center-para{
+            width: 73%;
+            margin-left: 13.5%;
+        }
+        .arrowIcon{
+            left:42.8%;
+        }
+        #middleArrow{
+            margin-left: 33%;
+        }
+        #middlePara{
+            width: 75%;
+            margin-left: 12.5%;
+        }
+        #power{
+            margin-left: 33%;
+        }
+        .help{
+            width: 85%;
+        }
+        .smallDiv{
+            width: 85%;
+            padding-bottom: 4px;
+        }
+        .contactUs{
+            width: 330px;
+        }
+        .blocks{
+            width: 100%;
+        }
+        .letsTalk{
+            margin-left: 4%;
+            width: 97%;
+            letter-spacing: 0;
+        }
+        .smallBarDiv{
+            margin-left: 4vw;
+        }
+        .smallBar{
+            width: 13.5vw;
+            height: 2px;
+        }
+        .EmailUs{
+            margin-left: 30%;
+            margin-top: 5vh;
+            margin-bottom: 4%;
+        }
+
     }
 }
